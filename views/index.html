@@ -1,0 +1,234 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- Externally Imported JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Locally Imported JS -->
+<script src="../public/javascripts/semantic.min.js"></script>
+<script src="../public/javascripts/mainUtils.js"></script>
+
+<!-- Externally Imported Stylesheets -->
+
+
+<!-- Locally Imported Stylesheets -->
+<link rel="stylesheet" type="text/css" href="../public/stylesheets/semantic.min.css">
+<link rel="stylesheet" href="../public/stylesheets/styleszz.css">
+
+</head>
+<body>
+
+<nav>
+	<div id="navList">
+		<div onclick="moveToID('welcome');" class="navListElement" id="">
+			<span class="navListElementSpan">Welcome</span>		
+		</div>
+		<div onclick="moveToID('program');" class="navListElement" id="">
+			<span class="navListElementSpan">Program</span>		
+		</div>
+		<div onclick="moveToID('subjects');" class="navListElement" id="">
+			<span class="navListElementSpan">Subjects</span>		
+		</div>
+		<div onclick="moveToID('details');" class="navListElement" id="">
+			<span class="navListElementSpan">Details</span>		
+		</div>
+		<div onclick="moveToID('contact');" class="navListElement" id="">
+			<span class="navListElementSpan">Contact</span>		
+		</div>
+	</div>
+</nav>
+
+<header>
+<div>
+	<div>
+		<div>
+		<div class="ui large header blu">Welcome to Project Organic</div>
+		<div class="ui small header blu">We're glad you could join us!</div>
+		<button id="headerButton" onclick="moveToID('welcome');">
+			Who are we?
+		</button>
+		</div>
+	</div>
+</div>
+</header>
+
+<section class="container" id="welcome">
+<div id="welcomeContainer">
+	<div id="welcomeRow">
+		<div>
+			<div class="ui large header">Welcome</div>
+			<div class="ui small header">Subtitle</div>
+			<p>
+				Project Organic is an extracurricular educational program designed with the interntion of sprouting interest in pursuing a future involving programming concepts.
+			</p>
+		</div>
+	</div>
+</div>
+</section>
+
+<section class="container" id="program">
+<div id="programContainer">
+	<div id="programRow">
+		<div>
+			<div class="ui large header blu">program</div>
+			<div class="ui small header blu">Subtitle</div>
+			<p>
+				This is a 10 week long thing
+			</p>
+		</div>
+	</div>
+</div>
+</section>
+
+<section class="container" id="subjects">
+<div id="subjectsContainer" class="ui one vertically divided column grid">
+	<div class="row">
+		<div class="column subjectColumn">
+			<div class="ui two column grid">  
+				<div class="column">
+					<img class="column ui small rounded image avatar rightSubjectImage" src="../public/images/square-image.png">
+				</div>
+				<div class="column leftSubjectText">
+					<div class="ui large header">Machnine Learning</div>
+					<div class="ui small header">Subtitle</div>
+					<p>
+						Lorem ipsum tehee Lorem ipsum tehee Lorem ipsum tehee 
+						Lorem ipsum tehee Lorem ipsum teheeLorem 
+						ipsum tehee Lorem ipsum tehee
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column subjectColumn">
+			<div class="ui two column grid">  
+				<div class="column rightSubjectText">
+					<div class="ui large header">Application Development</div>
+					<div class="ui small header">Subtitle</div>
+					<p>
+						Lorem ipsum tehee Lorem ipsum tehee Lorem ipsum tehee 
+						Lorem ipsum tehee Lorem ipsum teheeLorem 
+						ipsum tehee Lorem ipsum tehee
+					</p>
+				</div>
+				<div class="column">
+					<img class="column ui small rounded image avatar leftSubjectImage" src="../public/images/square-image.png">
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="row">	
+		<div class="column subjectColumn">
+			<div class="ui two column grid">  
+				<div class="column">
+					<img class="column ui small rounded image avatar rightSubjectImage" src="../public/images/square-image.png">
+				</div>
+				<div class="column leftSubjectText">
+					<div class="ui large header">Website Development</div>
+					<div class="ui small header">Subtitle</div>
+					<p>
+						Lorem ipsum tehee Lorem ipsum tehee Lorem ipsum tehee 
+						Lorem ipsum tehee Lorem ipsum teheeLorem 
+						ipsum tehee Lorem ipsum tehee
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+
+<section class="container" id="details">
+<div id="detailsContainer" class="ui three column grid">
+	<div id="detailsRow" class="row">
+		<div class="column">
+			<div class="personBox">
+				<img class="ui small circular image avatar" src="../public/images/square-image.png">
+				<div class="ui large header">Emily Chen</div>
+				<div class="ui small header">Founder</div>
+			</div>
+		</div>
+		<div class="column">
+			<div class="personBox">
+				<img class="ui small circular image avatar" src="../public/images/square-image.png">
+				<div class="ui large header">Alex Boldt</div>
+				<div class="ui small header">Title here</div>
+			</div>
+		</div>
+		<div class="column">
+			<div class="personBox">
+				<img class="ui small circular image avatar" src="../public/images/square-image.png">
+				<div class="ui large header">Nick Carter</div>
+				<div class="ui small header">Web Designer</div>
+			</div>
+		</div>
+		<div class="column">
+			<div class="personBox">
+				<img class="ui small circular image avatar" src="../public/images/square-image.png">
+				<div class="ui large header">Alan Way</div>
+				<div class="ui small header">Title here</div>
+			</div>
+		</div>
+		<div class="column">
+			<div class="personBox">
+				<img class="ui small circular image avatar" src="../public/images/square-image.png">
+				<div class="ui large header">Shreya Gangan</div>
+				<div class="ui small header">Title here</div>
+			</div>
+		</div>
+		<div class="column">
+			<div class="personBox">
+				<img class="ui small circular image avatar" src="../public/images/square-image.png">
+				<div class="ui large header">David Chan</div>
+				<div class="ui small header">Title here</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+</section>
+
+<section class="container" id="contact">
+<div id="contactBack" class="mover">
+<div id="contactContainer">
+	<div id="contactRow">
+		<div>
+			<div class="ui large header">Get A Hold Of Us</div>
+			<form class="ui form">
+			<div class="field name">
+				<label>Name</label>
+				<input type="text">
+			</div>
+			<div class="two fields">
+			<div class="field email">
+				<label>E-mail</label>
+				<input type="text">
+			</div>
+			<div class="field phone">
+				<label>Phone Number</label>
+				<input type="text">
+			</div>
+			</div>
+			<div class="field body">
+				<label>Body</label>
+				<textarea rows="5"></textarea>
+			</div>
+			</form>
+					<button id="contactButton" onclick="contact();">
+			Who are we?
+		</button>
+
+		</div>
+	</div>
+</div>
+</div>
+</section>
+
+<footer>
+<p>Copyright 2017</p>
+</footer>
+
+</body>
+</html> 

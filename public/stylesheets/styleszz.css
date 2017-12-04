@@ -1,0 +1,168 @@
+body{
+	text-align: center;
+}
+
+.blu{
+	color: aliceblue !important;
+}
+
+nav{
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color: darkgray;
+	z-index: 10;
+}
+
+#navList{
+	height: 100%;
+	display: inline-flex;
+	float: right;
+}
+
+.navListElement{
+	height: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	transition: all 1s ease;
+}
+
+.navListElement:hover{
+	background-color: aliceblue;
+}
+
+.navListElementSpan{
+	height: inherit;
+	line-height: 50px;
+}
+
+header{
+	padding-top: 20%;
+	padding-bottom: 20%;
+	height: 960px;
+	background-color: #3f3f3f;
+	color: aliceblue;		
+}
+
+#headerButton{
+	border: 0px solid darkgray;
+	padding: 15px;
+	background-color: rgba(0,0,0,0);
+	transition: all 1s ease;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+	color: aliceblue;		
+}
+
+#headerButton:active{
+	background-color: rgba(110,110,110,1);
+}
+
+#headerButton:hover{
+	background-color: rgba(95,95,95,1);
+}
+
+#welcome{
+	padding-top: 20%;
+	padding-bottom: 20%;
+	height: 910px;
+}
+
+#program{
+	padding-top: 20%;
+	padding-bottom: 20%;
+	height: 910px;	
+	background-color: #3f3f3f;
+	color: aliceblue;
+}
+
+#subjects{
+	padding-top: 20%;
+	padding-bottom: 20%;
+	height: auto;
+}
+
+.subjectColumn{
+	margin: 4rem;
+}
+
+.rightSubjectImage{
+	float: right;
+}
+
+.leftSubjectImage{
+	float: left;
+}
+
+.rightSubjectText{
+	text-align: right;
+}
+
+.leftSubjectText{
+	text-align: left;
+}
+
+#details{
+	padding-top: 20%;
+	padding-bottom: 20%;
+	height: auto;
+}
+
+#detailsContainer{
+	width: 80%;
+	margin: auto;
+}
+
+.personBox{
+	margin: 1rem !important;
+	padding: 2rem;
+	background-color: #68686899;
+	border-top-right-radius: 55px;
+	border-bottom-left-radius: 55px;
+}
+
+#contact{
+	height: 910px;
+}
+
+#contactBack{
+	height: 100%;
+}
+
+#contactContainer{
+	padding-top: 20%;
+	padding-bottom: 20%;
+	width: 65%;
+	margin: auto;
+}
+
+#contactButton{
+	border: 0px solid darkgray;
+	padding: 15px;
+	background-color: rgba(0,0,0,0);
+	transition: all 1s ease;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#contactButton:active{
+	background-color: rgba(215,215,215,1);
+}
+
+#contactButton:hover{
+	background-color: rgba(225,225,225,1);
+}
+
+label{
+	float: left;
+}
+
+/* .mover{
+	height: 100%;
+ 	background-image:url("../images/network.jpg");
+ 	background-position:center;
+} */
+
+footer{
+	height: 150px;
+	background-color: #3f3f3f;
+	color: aliceblue;
+}

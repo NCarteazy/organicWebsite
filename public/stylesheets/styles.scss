@@ -1,0 +1,69 @@
+body{
+	text-align: center;
+}
+
+
+
+nav{
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color: darkgray;
+	z-index: 10;
+}
+
+header{
+	padding-top: 20%;
+	padding-bottom: 20%;
+	height: 900px;
+	background-color: #3f3f3f;
+	color: aliceblue;		
+	div{
+		background-color:darkgray;
+	}
+}
+
+#welcome{
+	padding-top: 20%;
+	padding-bottom: 20%;
+	height: 900px;
+}
+
+.mover{
+ background-image:url(http://oaklandbaptist.org/media/Green-Background.jpg);
+    background-position:center;
+}
+
+#program{
+	padding-top: 20%;
+	padding-bottom: 20%;
+	height: 900px;	
+	background-color: #3f3f3f;
+	color: aliceblue;
+}
+
+#subjects{
+	padding-top: 20%;
+	padding-bottom: 20%;
+	height: 900px;
+}
+
+#details{
+	padding-top: 20%;
+	padding-bottom: 20%;
+	height: 900px;
+	background-color: #3f3f3f;
+	color: aliceblue;
+}
+
+#contact{
+	padding-top: 20%;
+	padding-bottom: 20%;
+	height: 900px;
+}
+
+footer{
+	height: 150px;
+	background-color: #3f3f3f;
+	color: aliceblue;
+}
